@@ -5,5 +5,9 @@ def check_chars():
             print("La palabra tiene el caracter @")
         if "#" == char:
             print("La palabra tiene el caracter #")
+        if "$" == char:
+            print("La palabra tiene el caracter $")
+        if "%" == char:
+            print("La palabra tiene el caracter %")
 
-check_chars
+check_chars()
